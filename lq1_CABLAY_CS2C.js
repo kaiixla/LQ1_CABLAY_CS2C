@@ -24,7 +24,7 @@ let sum4all = p1fullName.length + p2fullName.length + p1address.length + p2addre
 let ages = p1age + p2age; //sum of the ages of persona 1 and persona 2
 let sub1 = ages - p1fullName.length; //subtrahend of their ages
 let mult = sub1 * p2fullName.length; //product of the subtrahend of their ages and persona 2 name length
-let p1raise = p1fullName.length ** p2address.length;
+let p1raise = p1address.length ** p2address.length;
 
 //console for the final ouputs
 console.log(p1full);
